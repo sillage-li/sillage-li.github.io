@@ -1,10 +1,10 @@
-baseURL = "https://hugodoit.pages.dev"
+baseURL = "https://sillage-li.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # website title
 # 网站标题
-title = "DoIt"
+title = "sillageli"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -25,7 +25,7 @@ enableEmoji = true
 theme = "DoIt"
 # themes directory
 # 主题目录
-themesDir = "/themes"
+themesDir = "themes"
 
 # Or, when using theme as hugo module
 # [module]
