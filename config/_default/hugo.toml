@@ -11,7 +11,7 @@ title = "DoIt"
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
@@ -25,7 +25,7 @@ enableEmoji = true
 theme = "DoIt"
 # themes directory
 # 主题目录
-themesDir = "../.."
+themesDir = "/themes"
 
 # Or, when using theme as hugo module
 # [module]
