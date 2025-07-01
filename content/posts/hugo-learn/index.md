@@ -12,6 +12,9 @@ tags: ["installation", "configuration"]
 categories: ["documentation"]
 series: ["getting-start"]
 ---
+Hugo 的构建于自托管
+<!--more-->
+
 
 ## Hugo build 
 ## 安装
