@@ -6,7 +6,7 @@ title: 'Hugo Build'
 
 authors: ["sillageli"]
 description: "Hugo 的构建于自托管"
-featuredImage: "hugo-logo-wide.svg"
+#featuredImage: "hugo-logo-wide.svg"
 
 tags: ["installation", "configuration"]
 categories: ["documentation"]
@@ -60,5 +60,11 @@ theme.DoIt 文件下有一个 exampleSite 文件夹， 这个是此主题的一�
 4. 控制台使用命令 `hugo server -D` 本地启动项目进行预览。
 
 ## github pages 托管
-在 github 仓库点击 Settings， 选择 pages ![操作图](./settings-pages-actions.jpg "pages-actions") 点击 `browse all workflows`,进入后搜索 hugo, configure 进入编辑后保存即可。**仓库尽量选择同名的仓库， 如： 你的 github 叫 tom, 则创建一个 tom.github.io 的仓库来使用**。
+
+[//]: # (在 github 仓库点击 Settings， 选择 pages ![操作图]&#40;settings-pages-actions.jpg "pages-actions"&#41;)
+[//]: # ({{< image src="settings-pages-actions.webp" caption="操作" width="2450" height="1562" >}})
+在 github 仓库点击 Settings, 选择 pages
+{{< image src="settings-pages-actions.webp" caption="基本配置下的预览" width="2450" height="1562" >}}
+
+点击 `browse all workflows`,进入后搜索 hugo, configure 进入编辑后保存即可。**仓库尽量选择同名的仓库， 如： 你的 github 叫 tom, 则创建一个 tom.github.io 的仓库来使用**。
 检查刚才配置的 workflows yaml, 默认应该监控的 master 分支， 尝试推送到远端后检查 actions 中是否构建成功.  成功后可访问 tom.github.io 来访问页面。
