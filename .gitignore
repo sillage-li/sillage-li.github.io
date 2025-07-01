@@ -3,3 +3,9 @@ public
 resources
 .hugo_build.lock
 .obsidian
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+!.edgeone/project.json
+.tef_dist/*
+  
