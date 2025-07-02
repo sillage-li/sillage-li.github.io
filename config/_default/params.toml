@@ -1,6 +1,6 @@
 # website title
 # 网站标题
-title = "Hugo DoIt Theme Documentation"
+title = "拾叁的小站"
 # DoIt theme version
 # DoIt 主题版本
 version = "0.4.X"
@@ -29,11 +29,11 @@ license = '<a rel="license external nofollow noopener noreferrer" href="https://
 bundle = false
 
 [author]
-  name = "PCloud"
-  email = "heige.pcloud@outlook.com"
-  link = "https://github.com/HEIGE-PCloud"
-  avatar = "/images/avatar.webp"
-  gravatarEmail = "heige.pcloud@outlook.com"
+  name = "sillageli-li"
+  email = "erzhiri@gmail.com"
+  link = "https://github.com/sillage-li"
+  avatar = "https://avatars.githubusercontent.com/u/53327240?v=4"
+#  gravatarEmail = "heige.pcloud@outlook.com"
 
 [image]
   # cache remote images for better optimisations
@@ -57,7 +57,7 @@ bundle = false
     logo = ""
     # title name
     # 标题名称
-    name = "DoIt"
+    name = "Blog"
     # you can add extra information before the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
     pre = '<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>'
@@ -90,7 +90,7 @@ bundle = false
   author = true
   # site creation time
   # 网站创立年份
-  since = 2019
+  since = 2025
   # ICP info only in China (HTML format is supported)
   # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
   icp = ""
@@ -158,17 +158,17 @@ bundle = false
   linkToMarkdown = true
   # configure the link to view source the post
   # 配置文章原始文件的链接
-  linkToSource = "https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}"
+  linkToSource = "https://github.com/sillage-li/sillage-li.github.io/tree/master/content/{path}"
   # "https://github.com/user/repo/blob/main/{path}"
   # configure the link to edit the post
   # 配置编辑文章的链接
-  linkToEdit = "https://github.com/HEIGE-PCloud/DoIt/edit/main/exampleSite/content/{path}"
+#  linkToEdit = "https://github.com/HEIGE-PCloud/DoIt/edit/main/exampleSite/content/{path}"
   # https://github.com/user/repo/edit/main/{path}
   # https://gitlab.com/user/repo/-/edit/main/{path}
   # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
   # configure the link to report issue for the post
   # 配置提交错误的链接
-  linkToReport = "https://github.com/HEIGE-PCloud/DoIt/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
+#  linkToReport = "https://github.com/HEIGE-PCloud/DoIt/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
   # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
   # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
   # whether to show the full text content in RSS
@@ -336,7 +336,7 @@ bundle = false
   # Comment config
   # 评论系统设置
   [page.comment]
-    enable = true
+    enable = false
     # Disqus comment config (https://disqus.com/)
     # Disqus 评论系统设置 (https://disqus.com/)
     [page.comment.disqus]
@@ -517,7 +517,7 @@ bundle = false
     # Publisher info
     # 出版者信息
     [page.seo.publisher]
-      name = "xxxx"
+      name = "sillageli"
       logoUrl = "/images/avatar.webp"
   # Related content config
   # 相关文章推荐配置
